@@ -1,16 +1,4 @@
-@font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url("assets/fonts/Roboto-Bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url("assets/fonts/Roboto-Regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
     /* colors */
@@ -38,7 +26,7 @@ body {
     justify-content: center;
     background-color: var(--charcoalGrey);
     font-size: var(--size);
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .sing-up {
