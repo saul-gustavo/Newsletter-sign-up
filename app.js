@@ -1,4 +1,4 @@
-const gracias = document.querySelector('.message');
+const contentMain = document.querySelector('.message');
 const btnSubmit = document.querySelector('.submit');
 const signUp = document.querySelector('.sing-up');
 const error = document.querySelector('.error');
@@ -16,7 +16,7 @@ btnSubmit.addEventListener('click', (e) => {
     } else {
         correo.classList.remove('box');
         error.style.display = "none";
-        gracias.style.display = "block"
+        contentMain.style.display = "block"
         signUp.style.display = "none"
     }
 })
