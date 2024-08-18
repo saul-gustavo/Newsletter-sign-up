@@ -177,9 +177,8 @@ form .email {
     .sing-up {
         flex-direction: column-reverse;
         width: 400px;
-        padding: 0;
-        margin: 0;
         height: 850px;
+        padding: 0;
     }
 
     .imagen {
@@ -191,7 +190,6 @@ form .email {
     }
 
     .left {
-        margin: 0;
         flex: 1.3;
     }
 
