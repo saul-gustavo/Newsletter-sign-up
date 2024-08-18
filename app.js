@@ -1,4 +1,4 @@
-const contentMain = document.querySelector('.message');
+const contentMain = document.getElementById('none');
 const btnSubmit = document.querySelector('.submit');
 const signUp = document.querySelector('.sing-up');
 const error = document.querySelector('.error');
