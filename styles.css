@@ -27,6 +27,7 @@ body {
     background-color: var(--charcoalGrey);
     font-size: var(--size);
     font-family: "Roboto", sans-serif;
+    position: relative;
 }
 
 .sing-up {
@@ -170,6 +171,21 @@ form .email {
     background: linear-gradient(187deg, rgba(255,101,71,1) 0%, rgba(255,89,104,1) 70%); 
     cursor: pointer;
     box-shadow: 0px 6px 15px rgba(255, 102, 71, 0.4);
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    color: var(--white);
+}
+
+.attribution a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: var(--tomato);
 }
 
 @media screen and (max-width: 768px) {
