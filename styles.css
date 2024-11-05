@@ -24,6 +24,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: var(--charcoalGrey);
     font-size: var(--size);
     font-family: "Roboto", sans-serif;
@@ -174,8 +175,8 @@ form .email {
 }
 
 .attribution {
-    position: absolute;
-    bottom: 10px;
+    padding: 10px;
+    text-align: center;
     color: var(--white);
 }
 
